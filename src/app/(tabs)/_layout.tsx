@@ -11,7 +11,7 @@ export default function TabsLayout() {
       }}
     >
       <Tabs.Screen
-        name="tasks"
+        name="index"
         options={{
           title: 'Dashboard',
           tabBarIcon: ({ color }) => (
@@ -23,6 +23,7 @@ export default function TabsLayout() {
           ),
         }}
       />
+      <Tabs.Screen name="tasks" options={{ href: null }} />
       <Tabs.Screen
         name="profile"
         options={{
